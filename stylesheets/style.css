@@ -27,12 +27,64 @@ nav{
 }
 
 section{
-    border: 2px solid black;
+    border: 5px solid black;
+    border-radius: 30px;
+    box-shadow: 15px 15px 5px rgba(8, 20, 2, 0.5) ;
     width: 50vw;
-    height: 70vh;
+    height: 80vh;
     margin: auto;
+    transition: 0.4s ease-in-out;
+}
+
+section:hover{
+    transform: scale(0.9);
 }
 
 section img{
     height: 40vh;
+    margin-left: 120px;
+    border: solid 2px rgb(19, 11, 11);
+    box-shadow: 10px 10px 5px rgba(8, 20, 2, 0.5) ;
+    border-radius: 40px;
+}
+
+section h2{
+    text-align: center;
+    margin: 20px;
+}
+
+.p-description{
+    text-align: center;
+    margin: 40px;
+}
+
+.p-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+span{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+button{
+    border-style: none;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    border-radius: 20px;
 }
