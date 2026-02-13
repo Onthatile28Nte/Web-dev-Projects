@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 40px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+ul li{
+    font-size: 18px;
+}
+
+ul i{
+    margin: auto 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+section{
+    border: 2px solid black;
+    width: 50vw;
+    height: 70vh;
+    margin: auto;
+}
+
+section img{
+    height: 40vh;
+}
